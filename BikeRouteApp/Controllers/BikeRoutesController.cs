@@ -20,7 +20,7 @@ namespace BikeRouteApp.Controllers
         }
 
         // GET: BikeRoutes
-        public async Task<IActionResult> Index(string BikeRouteDirection, string searchString)
+        public async Task<IActionResult> Index(string bikeRouteDirection, string searchString)
         {
             if (_context.BikeRoute == null)
             {
@@ -35,9 +35,14 @@ namespace BikeRouteApp.Controllers
                          select b;
 
 
-            if (!String.IsNullOrEmpty(searchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
                 bikeRoutes = bikeRoutes.Where(s => s.Name!.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(bikeRouteDirection))
+            {
+                bikeRoutes = bikeRoutes.Where(x => x.Direction == bikeRouteDirection);
             }
 
             var bikeRouteVM = new BikeRouteDirectionViewModel
