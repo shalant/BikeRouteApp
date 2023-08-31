@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AD6s+JmX5PpNTSilEunUxrVK29NicuaNmlm4ijXgIsQ=",
+  "Hash": "0fS6u0R6y3QrL6PZrbifkjxZpNBpUNTQ89FNvmhVL5A=",
   "Source": "BikeRouteApp",
   "BasePath": "_content/BikeRouteApp",
   "Mode": "Default",
@@ -1103,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\digdr\\Documents\\coding\\BikeRouteApp\\BikeRouteApp\\wwwroot\\images\\bikePic.jpg",
+      "SourceId": "BikeRouteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\digdr\\Documents\\coding\\BikeRouteApp\\BikeRouteApp\\wwwroot\\",
+      "BasePath": "_content/BikeRouteApp",
+      "RelativePath": "images/bikePic.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bikePic.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\digdr\\Documents\\coding\\BikeRouteApp\\BikeRouteApp\\wwwroot\\images\\strava-runner-street-art-tiger-drawing-san-francisco-1.jpeg",
+      "SourceId": "BikeRouteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\digdr\\Documents\\coding\\BikeRouteApp\\BikeRouteApp\\wwwroot\\",
+      "BasePath": "_content/BikeRouteApp",
+      "RelativePath": "images/strava-runner-street-art-tiger-drawing-san-francisco-1.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\strava-runner-street-art-tiger-drawing-san-francisco-1.jpeg"
     },
     {
       "Identity": "C:\\Users\\digdr\\Documents\\coding\\BikeRouteApp\\BikeRouteApp\\wwwroot\\js\\site.js",
