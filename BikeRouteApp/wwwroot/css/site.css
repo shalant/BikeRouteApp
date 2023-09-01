@@ -19,13 +19,60 @@ html {
 
 body {
   margin-bottom: 60px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 
+/* Hero section styles */
 .hero {
-    color: orange;
-    text-align: center;
+    background-image: url('../images/bikePic.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* parallax effects */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.hero-content {
+    text-align: center;
+    color: #e1ad01;
+    text-shadow: 2px 2px 11px rgba(225,173,1,0.8);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    /* background-color: #f36f6f; */
+    /* background-color: #FFB6C1; */
+    background-color: #FFCCCB;
+    /* color: #fff; */
+    color: #353630;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+    .cta-button:hover {
+        background-color: #e25d5d;
+    }
 
 .card-styles {
     display: flex;
